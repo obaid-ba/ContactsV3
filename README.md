@@ -18,6 +18,28 @@ Liste des contacts ──(saisie d'un filtre)──▶ clic sur un contact
                                             galerie, caméra, GPS)  ◀──── Retour ───────────┘
 ```
 
+## Captures d'écran
+
+| Liste complète | Liste filtrée | Aucun résultat |
+|:-:|:-:|:-:|
+| <img src="captures/01_liste_complete.png" width="220" alt="Liste complète"> | <img src="captures/02_liste_filtree.png" width="220" alt="Liste filtrée"> | <img src="captures/03_resultat_vide.png" width="220" alt="Recherche sans résultat"> |
+
+| Fiche détail | Modification | Erreurs de validation |
+|:-:|:-:|:-:|
+| <img src="captures/04_detail.png" width="220" alt="Fiche détail"> | <img src="captures/05_modification.png" width="220" alt="Modification"> | <img src="captures/06_erreurs_validation.png" width="220" alt="Erreurs de validation"> |
+
+| Galerie | Caméra | Carte + marqueur |
+|:-:|:-:|:-:|
+| <img src="captures/07_galerie.png" width="220" alt="Galerie"> | <img src="captures/08_camera.png" width="220" alt="Caméra"> | <img src="captures/09_carte_marqueur.png" width="220" alt="Carte avec marqueur"> |
+
+| Contact sans position | Appel | E-mail |
+|:-:|:-:|:-:|
+| <img src="captures/10_carte_sans_position.png" width="220" alt="Contact sans coordonnées"> | <img src="captures/11_appel.png" width="220" alt="Composeur téléphonique"> | <img src="captures/12_email.png" width="220" alt="Messagerie"> |
+
+| Après rotation |
+|:-:|
+| <img src="captures/13_rotation.png" width="220" alt="Après rotation"> |
+
 ## Fonctionnalités
 
 **V2 conservées**
@@ -97,3 +119,4 @@ ContactsV3/
 ## Auteur
 
 Obaid Allah — ISET Djerba.
+# ContactsV3
