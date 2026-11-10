@@ -1,0 +1,18 @@
+# Fichiers générés / propres à la machine
+*.iml
+.gradle/
+build/
+app/build/
+.idea/
+.DS_Store
+.externalNativeBuild
+.cxx
+*.apk
+
+# ===== SECRETS : ne jamais publier la clé Google Maps =====
+# local.properties contient sdk.dir ET MAPS_API_KEY=...  -> jamais commité
+local.properties
+secrets.properties
+*.keystore
+*.jks
+google-services.json

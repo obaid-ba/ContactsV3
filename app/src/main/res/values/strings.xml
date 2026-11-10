@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Contacts V3</string>
+
+    <!-- Liste -->
+    <string name="titre_liste">Contacts</string>
+    <string name="hint_recherche">Rechercher (nom, prénom, téléphone)</string>
+    <plurals name="nb_contacts">
+        <item quantity="one">%d contact</item>
+        <item quantity="other">%d contacts</item>
+    </plurals>
+    <string name="aucun_contact">Aucun contact dans la liste</string>
+    <string name="aucun_resultat">Aucun contact ne correspond à « %1$s »</string>
+    <string name="desc_photo">Photo du contact</string>
+    <string name="desc_position">Position GPS enregistrée</string>
+
+    <!-- Détail -->
+    <string name="titre_detail">Fiche contact</string>
+    <string name="hint_prenom">Prénom</string>
+    <string name="hint_nom">Nom</string>
+    <string name="hint_telephone">Téléphone</string>
+    <string name="hint_email">Adresse e-mail</string>
+    <string name="hint_latitude">Latitude (−90 à 90)</string>
+    <string name="hint_longitude">Longitude (−180 à 180)</string>
+    <string name="titre_gps">Coordonnées GPS</string>
+    <string name="btn_galerie">Galerie</string>
+    <string name="btn_camera">Caméra</string>
+    <string name="btn_appeler">Appeler</string>
+    <string name="btn_email">E-mail</string>
+    <string name="btn_voir_carte">Voir sur la carte</string>
+    <string name="btn_annuler">Annuler</string>
+    <string name="btn_enregistrer">Enregistrer</string>
+
+    <!-- Erreurs de saisie -->
+    <string name="err_obligatoire">Champ obligatoire</string>
+    <string name="err_email_invalide">Adresse e-mail invalide</string>
+    <string name="err_telephone_invalide">Numéro de téléphone invalide</string>
+    <string name="err_lat_manquante">Latitude manquante : renseignez les deux coordonnées, ou aucune</string>
+    <string name="err_lon_manquante">Longitude manquante : renseignez les deux coordonnées, ou aucune</string>
+    <string name="err_lat_nan">Latitude : valeur numérique attendue (ex. 36.8065)</string>
+    <string name="err_lon_nan">Longitude : valeur numérique attendue (ex. 10.1815)</string>
+    <string name="err_lat_hors">Latitude hors limites : elle doit être comprise entre −90 et 90</string>
+    <string name="err_lon_hors">Longitude hors limites : elle doit être comprise entre −180 et 180</string>
+
+    <!-- Messages -->
+    <string name="msg_enregistre">Contact enregistré</string>
+    <string name="msg_corriger">Corrigez les champs signalés</string>
+    <string name="msg_contact_introuvable">Contact introuvable</string>
+    <string name="msg_aucun_numero">Saisissez un numéro de téléphone pour appeler</string>
+    <string name="msg_aucune_app_appel">Aucune application d\'appel disponible sur cet appareil</string>
+    <string name="msg_email_vide">Saisissez une adresse e-mail valide pour écrire</string>
+    <string name="msg_aucune_app_mail">Aucune application de messagerie disponible sur cet appareil</string>
+    <string name="msg_galerie_indisponible">Aucune galerie disponible sur cet appareil</string>
+    <string name="msg_camera_indisponible">Aucune application caméra disponible sur cet appareil</string>
+    <string name="msg_selection_annulee">Aucune photo sélectionnée</string>
+    <string name="msg_photo_annulee">Prise de photo annulée</string>
+    <string name="msg_photo_erreur">Impossible de charger cette photo</string>
+
+    <!-- Carte -->
+    <string name="titre_carte">Position du contact</string>
+    <string name="desc_retour">Retour à la fiche du contact</string>
+    <string name="carte_absente">Ce contact n\'a pas de position GPS enregistrée.\nRenseignez sa latitude et sa longitude dans la fiche, puis réessayez.</string>
+    <string name="carte_invalide">Impossible d\'afficher la carte : coordonnées invalides.\n\n%1$s</string>
+</resources>

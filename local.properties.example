@@ -1,0 +1,9 @@
+# Copiez ce fichier en « local.properties » (à la racine du projet) et renseignez vos valeurs.
+# local.properties est dans .gitignore : il ne sera JAMAIS envoyé sur GitHub.
+# (Android Studio crée déjà local.properties avec sdk.dir : ajoutez simplement la ligne MAPS_API_KEY.)
+
+# Chemin du SDK Android (généralement ajouté automatiquement par Android Studio)
+# sdk.dir=/chemin/vers/Android/Sdk
+
+# Clé d'API Google Maps SDK for Android (Google Cloud Console > API et services > Identifiants)
+MAPS_API_KEY=VOTRE_CLE_API_ICI
